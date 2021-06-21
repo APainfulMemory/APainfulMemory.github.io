@@ -1,0 +1,45 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Blue's website</title>
+  </head>
+  <body style="background-Color:#0D1117;">
+      <input type="button" class="ytlk" onclick="youtube()"/>
+      <input type="button" class="ghlk" onclick="github()"/>
+      <a href="games.html">My games</a>
+    </body>
+  <style>
+    *{
+    font-family: arial;
+    }
+    .ytlk {
+      background-image: url("images/youtube_social_square_red.png");
+      display: block;
+      border: 0;
+      height: 64px;
+      width: 64px;
+      position: absolute;
+      bottom: 5;
+      right: 5;
+    }
+    .ghlk {
+      background-image: url("images/GitHub-Mark-Light-64px.png");
+      display: block;
+      background-color: Transparent;
+      border: 0;
+      height: 64px;
+      width: 64px;
+      position: absolute;
+      bottom: 5;
+      right: 75;
+    }
+  </style>
+  <script type="text/javascript">
+  function youtube() {
+    window.open("https://www.youtube.com/channel/UCMycX59XGJTQn6pCyekOGYg")
+  }
+  function github() {
+    window.open("https://github.com/BabbyBlue")
+  }
+  </script>
+</html>
