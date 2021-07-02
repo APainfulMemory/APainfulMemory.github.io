@@ -7,37 +7,46 @@
       <h1 style="color:white;">Work in Progress</h1>
       <input type="button" class="youtube" onclick="youtube()"/>
       <input type="button" class="github" onclick="github()"/>
-      <input type="button" class="game" onclick="games()"></input>
-      <input type="button" class="theme" onclick="themes()"></input>
+      <input type="button" class="chrome" onclick="chrome()"></input>
+      <input type="button" class="firefox" onclick="firefox()"></input>
+      <img class="screenshot" src="images/cherry_pink_screenshot.png" width="1920" height="520">
     </body>
   <style>
-  * {
-    font-family: arial;
-  }
+    * {
+      font-family: arial;
+      }
     .youtube {
       background-image: url("images/youtube_social_circle_red.png");
       display: block;
+      background-size: contain;
+      background-repeat: no-repeat;
       background-color: Transparent;
       border: 0;
-      height: 64px;
-      width: 64px;
+      min-height: 64px;
+      min-width: 64px;
+      height: 3%;
+      width: 3%;
       position: absolute;
-      bottom: 5;
-      right: 5;
+      bottom: 1%;
+      right: 1%;
     }
     .github {
       background-image: url("images/GitHub-Mark-Light-64px.png");
       display: block;
+      background-size: contain;
+      background-repeat: no-repeat;
       background-color: Transparent;
       border: 0;
-      height: 64px;
-      width: 64px;
+      min-height: 64px;
+      min-width: 64px;
+      height: 3%;
+      width: 3%;
       position: absolute;
-      bottom: 5;
-      right: 85;
+      bottom: 1%;
+      right: 5%;
     }
-    .game {
-      background-image: url("images/games.png");
+    .chrome {
+      background-image: url("images/chrome.png");
       object-fit: contain;
       display: block;
       background-size: contain;
@@ -48,9 +57,12 @@
       min-height: 64px;
       width: 10%;
       height: 10%;
+      position: absolute;
+      top: 5%;
+      left: 20%;
     }
-    .theme {
-      background-image: url("images/themes.png");
+    .firefox {
+      background-image: url("images/firefox.png");
       object-fit: contain;
       display: block;
       background-size: contain;
@@ -61,9 +73,24 @@
       min-height: 64px;
       width: 10%;
       height: 10%;
+      position: absolute;
+      top: 5%;
+      right: 20%;
     }
-  </style>
-  <script type="text/javascript" src="detectmobilebrowser.js"></script>
+    .screenshot {
+      position: fixed;
+      display: block;
+      object-fit: contain;
+      border: 0;
+      min-width: 960px;
+      min-height: 260px;
+      width: 100%;
+      height: 70%;
+      right: 2;
+      bottom: 18%;
+    }
+    </style>
+  <!--script type="text/javascript" src="detectmobilebrowser.js"></script-->
   <script type="text/javascript">
     function youtube() {
         window.open("https://www.youtube.com/channel/UCMycX59XGJTQn6pCyekOGYg")
@@ -71,11 +98,11 @@
     function github() {
         window.open("https://github.com/BabbyBlue")
     }
-    function games() {
-        location.assign("games.html");
+    function chrome() {
+        window.open("https://www.mediafire.com/file/fs2th6acmzquhi3/Cherry_Pink_Chrome.7z/file");
     }
-    function themes() {
-        location.assign("themes.html");
+    function firefox() {
+        window.open("https://addons.mozilla.org/en-US/firefox/addon/cherry-pink/");
     }
   </script>
 </html>
