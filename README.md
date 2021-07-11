@@ -1,5 +1,13 @@
 # BabbyBlue.github.io
+
+WORK IN PROGRESS
+
 Just my website
+
+UPDATE 7/9/21 9:14 PM
+1. changed themes menus
+2. fixed scaling issues
+3. changed how screenshots are presented 
 
 
 UPDATE 7/2/21 1:36 AM

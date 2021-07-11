@@ -1,29 +1,22 @@
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <link rel="icon" href="images/FoxSit.png">
-    <link rel="stylesheet" href="style.css">
-    <meta charset="utf-8">
-    <title>(WIP) Blue's website (WIP)</title>
-  </head>
-  <body style="background-Color:#0D1117;">
-      <h1 style="color:white;">Work in Progress</h1>
-      <input type="button" class="cherry_pink" onclick="cherry_pink()"></input>
-      <div class="youtube">
-        <input type="button" class="link" onclick="youtube()"/>
-        <div class="github">
-          <input type="button" class="link" onclick="github()"/>
-        </div>
-    </body>
-  <!--script type="text/javascript" src="detectmobilebrowser.js"></script-->
-  <script type="text/javascript">
-    function youtube() {
-        window.open("https://www.youtube.com/channel/UCMycX59XGJTQn6pCyekOGYg")
-    }
-    function github() {
-        window.open("https://github.com/BabbyBlue")
-    }
-    function cherry_pink() {
-        location.assign("cherry_pink.html")
-    }
-  </script>
+
+<head>
+  <link rel="icon" href="images/FoxSit.png">
+  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <title>Themes</title>
+</head>
+
+<body style="background-Color:#0D1117;">
+  <div class="navbar">
+      <input type="image" src="images/home.png" class="home" onclick="goto('index.html')" />
+      <div class="topnav">
+        <a href="index.html">Home</a>
+        <a class="active" href="themes.html">Themes</a>
+        <a href="games.html">Games</a>
+        <a href="about.html">About</a>
+      </div>
+</body>
+
 </html>
