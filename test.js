@@ -5,12 +5,11 @@ function goto(dst) {
     location.assign(dst);
 }
 
-/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
+  var x = document.getElementById("demo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
   } else {
-    x.className = "topnav";
+    x.className = x.className.replace(" w3-show", "");
   }
 }
