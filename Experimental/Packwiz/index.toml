@@ -1,0 +1,20 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/hydrogen.toml"
+hash = "0e1a6f22d9e5538561be2f2a8bfd4998704124266c2af98d23e9adc67df5f9d9"
+metafile = true
+
+[[files]]
+file = "mods/iris.toml"
+hash = "00b8b522c80ea391ab2aadd3eb900a53afc9dd19e2e09159b81f0eafeaf71b18"
+metafile = true
+
+[[files]]
+file = "mods/lithium.toml"
+hash = "32fdab068429360301cf1720604f4f0dbb3ab81d3e78f9847be2ff741f04813c"
+metafile = true
+
+[[files]]
+file = "packwiz.exe"
+hash = "755caedbc3fd4cec9f230efa750b83249f1092c97d3995fd1881e942044fc9aa"

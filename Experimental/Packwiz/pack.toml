@@ -1,0 +1,12 @@
+name = "test"
+author = "blue"
+version = "0.0.1"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "133c726a773320981627dfe07960e57663365f1bbf80f8ac0e6044c0dddeecad"
+
+[versions]
+fabric = "0.11.6"
+minecraft = "1.17.1"
