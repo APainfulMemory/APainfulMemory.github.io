@@ -27,6 +27,10 @@
   left: 0;
 }
 
+.LinkIcon {
+    object-fit: contain;
+}
+
 .btn {
   display: block;
   font-size: 1.7vw;
