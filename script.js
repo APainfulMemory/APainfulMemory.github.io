@@ -4,8 +4,8 @@ function win(dst) {
 function goto(dst) {
     location.assign(dst);
 }
-function Hamburg() {
-  var x = document.getElementById("TopnavJS");
+function ResponsiveTopNav() {
+  var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
     x.className += " responsive";
   } else {
